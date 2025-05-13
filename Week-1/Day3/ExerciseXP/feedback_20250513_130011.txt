@@ -1,0 +1,12 @@
+URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-1/Day3/ExerciseXP/ex-d3.py
+suggestions for improvement:
+- **Exercise 1:** The solution is concise and correct.
+- **Exercise 2:** The initial part correctly calculates the total cost. However, the bonus section, which involves user input, has a flaw: it doesn't convert user input to integers properly, leading to potential errors and unexpected behavior.  The loop continues even after the user types 'exit'.
+- **Exercise 3:**  Several issues exist. The `type_of_clothes` and `international_competitors` are incorrectly defined as lists containing sets, making them awkward to work with.  The `if 'Desidual' not in brand.items():` condition is wrong, it should check if 'Desigual' is in the list. The `len(brand)` should be used directly not as a dictionary. The bonus section to merge dictionaries is missing. 
+- **Exercise 4:** The first two parts correctly create dictionaries using `zip`. The third part attempts to sort `users` in place using `users.sort()`, which modifies the original list, and then uses that modified list for the dictionary. This is not ideal. The filtering in the last part correctly identifies characters based on the criteria.
+Brief justification:
+- correctness: Exercise 1 is fully correct. Exercise 2 is partially correct (the first part is correct; the bonus section has logical errors). Exercise 3 has multiple flaws in data structure handling, conditional checks, and the bonus part. Exercise 4 is mostly correct, but the approach for part 3 could be improved.
+- readability: The code is generally readable, but some parts (especially in Exercise 3 and the bonus of Exercise 2) lack clarity and efficient structuring. The use of more descriptive variable names and better comments would improve readability.
+- performance: The code's performance is generally good, with the exception of the bonus in Exercise 2, which can lead to issues due to type conversion problems. In Exercise 3, the way the `type_of_clothes` and `international_competitors` are defined adds unnecessary complexity. 
+- security: There are no apparent security vulnerabilities in the code, but the user input handling in Exercise 2 makes it susceptible to errors if a user enters non-numeric values for age.
+
