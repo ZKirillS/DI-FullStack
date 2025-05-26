@@ -1,0 +1,14 @@
+URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day1/ExerciseXP/d1-ex.py
+suggestions for improvement:
+- In Exercise 1,  the `oldest` function could be made more concise and Pythonic using the `max` function with a custom key.
+- In Exercise 4, the `add_animal` method could return a boolean to indicate success or failure.
+- In Exercise 4, improve error handling in `sell_animal`. Instead of just printing a message, consider raising an exception or returning a value indicating failure.
+- Add docstrings to all functions and methods for better readability and understandability. 
+- In Exercise 4, the `sort_animals` method could be slightly optimized by using a `defaultdict` to avoid the `if first_l not in groups` check.
+- Consider adding more comprehensive test cases for all exercises to ensure robustness.
+Brief justification:
+- correctness: All exercises correctly implement the core functionality described in the chapter. Exercise 1 efficiently finds the oldest cat. Exercise 2 correctly instantiates dog objects, calls methods, and compares sizes. Exercise 3 successfully prints song lyrics. Exercise 4 implements adding, selling, displaying, sorting, and grouping animals correctly; however, there's room for improved error handling and a slightly more efficient sorting method.
+- readability: The code is mostly readable, but some functions (like `oldest` in Exercise 1) could be more concise.  Adding docstrings would significantly enhance readability. The variable names are mostly descriptive, but some could be improved for clarity.
+- performance: The code's performance is generally good. The algorithms used are efficient for the given problem sizes. Exercise 4's `sort_animals` function has a minor inefficiency that could be addressed with `defaultdict`.  For very large datasets, this might become noticeable.
+- security: There are no obvious security vulnerabilities in the provided code. It does not handle user input or interact with external systems in a way that would introduce security risks.
+
