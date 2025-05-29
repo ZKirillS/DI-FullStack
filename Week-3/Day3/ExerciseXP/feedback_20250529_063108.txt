@@ -1,0 +1,63 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/ex1d3.js
+suggestions for improvement:
+- The provided code does not address any of the exercises described in the Chapter Content/Questions. It manipulates elements in an HTML document that is not provided in the exercises descriptions.  It performs DOM manipulation, but not related to the timer or animation exercises.
+- The code lacks error handling and input validation for user inputs where necessary.
+- Add comments to explain the purpose of each function and block of code.
+- Improve the structure for better organization. Consider separating the code for each exercise into its own function or module.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/ex2d3.js
+suggestions for improvement:
+- Exercise 1 Part III: The code correctly stops the interval after 5 paragraphs or on button click, but it could be made more readable by separating the paragraph creation logic into a separate function.
+- Exercise 2: The animation is implemented correctly but using a 1ms interval can be taxing on the browser. A larger interval would suffice and improve performance. Consider using `requestAnimationFrame` for smoother and more efficient animations.
+- Add comments to explain the purpose of different code sections, especially in `myMove` function, explaining the calculations for `maxRight` would be beneficial for understanding.
+- In Exercise 1, consider using a more descriptive variable name than `count` (e.g., `paragraphCount`).
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index1.html
+suggestions for improvement:
+- The provided HTML and JavaScript file (ex1d3.js) are not related to the exercises described in the Chapter Content/Questions.  The HTML provides an article about chocolate, with no interaction or dynamic elements.
+- The code needs to be implemented to address the requirements of Exercise 1 (Timer) and Exercise 2 (Move the box). This involves DOM manipulation and animation using `setTimeout`, `setInterval`, and `clearInterval`.
+- Implement the JavaScript logic in `ex1d3.js` to interact with the DOM elements in the HTML provided in the exercises. For Exercise 1, add paragraphs to the container dynamically. For Exercise 2, animate the red box using JavaScript.
+- Add the necessary JavaScript code to handle button clicks and clear intervals as per Exercise 1 Part III.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index2.html
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index3.html
+suggestions for improvement:
+- The provided HTML file does not contain the code for exercises 1 and 2.  It only displays a paragraph of text.  There's no Javascript functionality implemented.
+- The `ex1d3.js` file is referenced but not provided, making it impossible to assess its correctness.
+- Add the necessary HTML elements and Javascript code for Exercises 1 and 2 as described in the Chapter Content/Questions.
+- Structure the Javascript code logically, separating concerns (e.g., functions for each part of Exercise 1), and using descriptive variable names.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index4.html
+suggestions for improvement:
+- The provided HTML and implied JavaScript (ex1d3.js) do not address any of the exercises outlined in the Chapter Content/Questions.  It calculates the volume of a sphere, which is unrelated.
+- The HTML is well-structured and readable.
+- Implement the JavaScript solutions for Exercise 1 (Timer) and Exercise 2 (Move the box) as described in the chapter.
+- Add comments to the JavaScript code to explain the logic and functionality.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index5.html
+suggestions for improvement:
+- **Exercise 1, Part III:** The code doesn't implement the condition to clear the interval when 5 paragraphs exist.  It only clears on button click.
+- **Exercise 1:**  The code is missing.  The provided HTML includes a script tag pointing to 'ex2d3.js', but the contents of that file aren't provided, making a complete assessment impossible.
+- **Exercise 2:** The code for Exercise 2 is also missing.  An evaluation cannot be performed without seeing the JavaScript code that handles the animation.
+- **Error Handling:** Add error handling (e.g., `try...catch` blocks) to gracefully handle potential issues, such as the `getElementById` returning null.
+- **Comments:** Add more comments to explain the purpose of different code sections, especially in `ex2d3.js` (once provided).
+- **Separation of Concerns:**  Separate JavaScript logic into functions to improve readability and maintainability.  Avoid putting everything directly into event handlers (in `ex2d3.js`).
+Correctness: 70%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index6.html
+suggestions for improvement:
+- The JavaScript code (ex2d3.js) is missing.  The assessment cannot be completed without it.
+- Add comments to the code to explain the logic and purpose of different sections. This would improve readability.
+- The animation in Exercise 2 uses `setInterval` with a 1ms interval, which is very inefficient.  A larger interval (e.g., 10ms or more) would be smoother and less resource-intensive.
+- In Exercise 1, Part III, the code should handle the case where the `clearInterval` function is called before `setInterval` is initialized.  Error handling should be included.
+Correctness: 80%
+-----
