@@ -1,0 +1,18 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day2/ExerciseXP/ex3.py
+suggestions for improvement:
+- The `PetDog` class's `__init__` method should not explicitly define the default value for `trained` in the parameter list.  It should be handled as a default argument within the `__init__` method's body.
+- The `train()` method should call `self.bark()` instead of `self.bark` to properly invoke the method.
+- The `play()` method's list comprehension is concise, but it could be improved by checking that all `args` passed are indeed `Petdog` instances to avoid errors.
+- Add docstrings to the class and its methods to explain their purpose, parameters, and return values.
+- The `do_a_trick()` method should include a check for the case that no tricks are defined.
+Correctness: 85%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day2/ExerciseXP/exXPd2.py
+suggestions for improvement:
+- **Exercise 1:** The `Siamese` class should have a unique attribute or method to differentiate it from other cat breeds.  The instructions suggest adding something specific to the Siamese breed, but the provided solution doesn't.
+- **Exercise 2:** The `fight` method could be improved by handling potential `ZeroDivisionError` if a dog's age is zero.  Adding a simple check would enhance robustness.
+- **Exercise 3:** The solution is missing the implementation for `play(*args)` and `do_a_trick()`.  Also, the `__init__` method in `PetDog` should use `super().__init__` to call the parent class's initializer correctly.
+- **Exercise 4:** The `check_majority` method's output messages don't exactly match the specified example.  The parent's names should be variables or parameters rather than hardcoded values.
+- All exercises: Add docstrings to functions and classes to improve readability and understanding.
+Correctness: 85%
+-----

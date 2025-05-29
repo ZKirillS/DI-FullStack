@@ -1,0 +1,11 @@
+URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day1/DailyChallenge/dc-d1.py
+suggestions for improvement:
+- The `get_info` method currently prints the output instead of returning it as a string, as specified in the instructions.  It should return a formatted string that can then be printed elsewhere.
+- The `get_short_info` method has a minor formatting issue. It prints the list of animal types directly without correctly formatting the string as specified in the instructions.  Consider using a loop and string formatting to dynamically construct the desired output string.
+- Add docstrings to methods for better readability and understanding.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class with `__init__`, `add_animal`, `get_animal_types` methods. The `get_info` method largely fulfills the requirement but prints instead of returning the string. The `get_short_info` method is mostly correct but its output is not precisely formatted as in the example.  These minor deviations prevent a perfect score.  All other aspects align with the chapter content, addressing classes, objects, dictionaries, methods, string formatting and list manipulation.
+- readability: The code is well-structured and easy to follow. However, adding docstrings would improve readability and understanding. The variable names are descriptive.  The logic within methods is relatively clear. The minor formatting issues in the output slightly detract from the readability score.
+- performance: The code's performance is efficient. The algorithms used (dictionary lookup, list sorting) have optimal time complexity for the tasks. There are no unnecessary computations or data structures.
+- security: There are no security concerns in this code. It's a simple class implementation with no external interactions or sensitive data handling.
+

@@ -1,0 +1,23 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day4/ExerciseXP/index.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day4/ExerciseXP/sampleJson.json
+suggestions for improvement:
+- The provided code only addresses Exercise 2.  Exercise 1, the random sentence generator, is missing entirely.
+- The date format in the 'birth_date' key should adhere to 'YYYY-MM-DD' as specified, currently it is 'YYYY/MM/DD'.
+- Error handling (e.g., `try-except` blocks) should be included for file operations and user input validation in Exercise 1 (if it were implemented).
+- The code for Exercise 2 is missing the file saving step.  It only shows the modified JSON data structure.
+Correctness: 80%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day4/ExerciseXP/w2d4exXP.py
+suggestions for improvement:
+- In `get_word_from_file`, handle potential `FileNotFoundError` exceptions.  The current code will crash if the file doesn't exist.
+- Improve error handling in `main`. Instead of just printing an error and exiting, provide more user-friendly feedback and allow the user to retry input.
+- The function `get_word_from_file` should take the file path as an argument for better flexibility and reusability, rather than hardcoding the path.
+- In `get_random_sentence`, using `random.sample` is good for avoiding duplicate words. Consider adding a check to ensure that the word list has at least `length` words; otherwise, `random.sample` will throw an error.
+- In Exercise 2, use a more descriptive variable name than `sampleJson` (e.g., `json_data`).
+- Add comments to explain the purpose of each section in both exercises.
+Correctness: 90%
+-----
