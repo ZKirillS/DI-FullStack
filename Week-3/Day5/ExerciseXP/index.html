@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coloring Game</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    .palette {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+    .color {
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+    .color.selected {
+      border: 2px solid black;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(20, 20px);
+      grid-template-rows: repeat(20, 20px);
+      gap: 1px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .cell {
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      border: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>Coloring Game</h1>
+  <div class="palette" id="palette"></div>
+  <div class="grid" id="grid"></div>
+
+  <script>
+    const paletteColors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'black', 'gray'];
+    const palette = document.getElementById('palette');
+    const grid = document.getElementById('grid');
+    let selectedColor = 'black';
+    let mouseDown = false;
+
+    paletteColors.forEach(color => {
+      const colorDiv = document.createElement('div');
+      colorDiv.className = 'color';
+      colorDiv.style.backgroundColor = color;
+      if (color === selectedColor) colorDiv.classList.add('selected');
+
+      colorDiv.addEventListener('click', () => {
+        document.querySelectorAll('.color').forEach(c => c.classList.remove('selected'));
+        colorDiv.classList.add('selected');
+        selectedColor = color;
+      });
+
+      palette.appendChild(colorDiv);
+    });
+
+    for (let i = 0; i < 400; i++) {
+      const cell = document.createElement('div');
+      cell.className = 'cell';
+
+      cell.addEventListener('mousedown', () => {
+        cell.style.backgroundColor = selectedColor;
+        mouseDown = true;
+      });
+      cell.addEventListener('mouseover', () => {
+        if (mouseDown) cell.style.backgroundColor = selectedColor;
+      });
+      document.addEventListener('mouseup', () => {
+        mouseDown = false;
+      });
+
+      grid.appendChild(cell);
+    }
+  </script>
+</body>
+</html>
