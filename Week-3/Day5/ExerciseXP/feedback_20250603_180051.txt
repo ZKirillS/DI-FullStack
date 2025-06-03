@@ -1,0 +1,9 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day5/ExerciseXP/index.html
+suggestions for improvement:
+- Improve color selection feedback: Add visual cues (e.g., brighter border) to the selected color in the palette to make it more obvious which color is currently chosen. 
+- Add error handling:  Consider what happens if the palette or grid elements aren't found.  Add a check to gracefully handle such situations.
+- Enhance CSS:  The CSS could be more robust, handling potential edge cases and different screen sizes more effectively. Consider using CSS variables for easier customization.
+- Optimize event handling: For a very large grid, the number of event listeners could become a performance concern. Explore using event delegation to improve efficiency.
+- Accessibility:  Improve accessibility by adding alternative text or ARIA attributes to relevant elements to benefit users with assistive technologies.
+Correctness: 95%
+-----
