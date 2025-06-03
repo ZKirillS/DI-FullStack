@@ -1,0 +1,22 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day4/ExerciseXP/exxp4.js
+suggestions for improvement:
+- In Exercise 1, add comments predicting the output of each section before running the code.  The instructions explicitly request predictions as comments.
+- In Exercise 1, address the `const` vs. `let` questions within the comments for each section, explaining the differences in behavior when using `const`.
+- Exercise 7 assumes an element with id `navbar` exists in the HTML.  It would be more robust to check if the element exists before appending the `userDiv` or handle the case where it doesn't exist gracefully (e.g., by creating it or displaying an error message).
+- In Exercise 8, Part I, the code doesn't fully follow the instructions: it directly adds ingredients in `makeJuice` instead of using `addIngredients` as an inner function.  Part II is better in that it uses nested functions as instructed.
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day4/ExerciseXP/index.html
+suggestions for improvement:
+- Exercise 1: Add comments explaining predictions for each scenario (especially const vs. let).  The existing comments are insufficient.
+- Exercise 1:  Consider adding a `console.log` instead of or in addition to `alert` for cleaner output in development.
+- Exercise 1: The code lacks error handling and input validation where appropriate.
+- Exercise 2: The code is functional but could be made more descriptive by using a more descriptive variable name than 'experiencePoints'.
+- Exercise 3: The arrow function is correctly implemented but is missing detailed comments.
+- Exercise 4:  The one-line arrow function is concise and good.  No improvements needed.
+- Exercise 5: The comments comparing function declaration and function expression are too brief. Elaborate on the differences in hoisting, scope, and where they are typically used.
+- Exercise 6:  The self-invoking function should handle potential errors (like missing arguments) gracefully. Add error handling and input validation.
+- Exercise 7: The self-invoking function should ideally check if the navbar exists before attempting to add a div. Add error handling. Include a placeholder for the profile picture if one isn't provided.
+- Exercise 8: The code lacks error handling.  Consider what happens if invalid inputs are given (e.g., non-string ingredients, incorrect size).
+Correctness: 75%
+-----
