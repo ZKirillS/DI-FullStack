@@ -1,0 +1,8 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day5/DailyChallenge/index.html
+suggestions for improvement:
+- Improve styling to better match the provided image.  The current styling is functional but lacks the visual details of the example.
+- Add error handling for cases where the `tasks` array might be unexpectedly empty or manipulated.
+- Consider using a more robust method for managing unique task IDs, especially in scenarios involving concurrent users or complex interactions.
+- The `renderTasks` function re-renders the entire list each time. For very large lists, this could be inefficient. Consider using a more targeted update approach (diffing algorithm).
+Correctness: 95%
+-----
