@@ -1,0 +1,28 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day2/ExerciseXP/exXPd2.js
+suggestions for improvement:
+- **Exercise 1:** The `sum` variable in `displayNumbersDivisible` is incremented by 1 instead of the actual number.  The bonus part is correctly implemented.
+- **Exercise 2:** The code correctly calculates the bill and updates the stock, fulfilling all requirements.
+- **Exercise 3:** The `changeEnough` function works perfectly and handles all test cases.
+- **Exercise 4:** The functions are well-structured and handle user input. The bonus part requiring a single prompt in `totalVacationCost` needs to be implemented.
+- **Exercise 5:**  All DOM manipulations are correctly done. The bonus alert works as intended.
+- **Exercise 6:** The code correctly manipulates the DOM elements as required. 
+- **Exercise 7:** The code successfully renders the book list based on the data. Consider adding error handling for missing images.
+Correctness: 90%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day2/ExerciseXP/index.html
+suggestions for improvement:
+- The provided HTML file is empty except for a script tag.  There's no actual code to assess for correctness against the exercises.
+- The exercises require significant JavaScript code to implement functions, DOM manipulation, and algorithm logic.  None of that is present.
+- Create separate `.js` files for each exercise or at least organize the code within the single `exXPd2.js` file into clearly separated sections for each exercise.
+- Add the HTML structures specified in the exercises, particularly for Exercises 5, 6, and 7, which involve DOM manipulation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day2/ExerciseXP/script.js
+suggestions for improvement:
+- The provided code only includes a `sum` function and doesn't address any of the exercises (1-7) outlined in the Chapter Content/Questions.  It needs to be completely rewritten to implement the solutions.
+- The `sum` function is fine, but it's not relevant to the exercises.  The code should include functions like `displayNumbersDivisible`, `myBill`, `changeEnough`, `hotelCost`, etc., as specified in the exercises.
+- Add error handling for user inputs (especially in Exercises 4 and 5) to prevent unexpected behavior.  Check for invalid input types and handle them gracefully.
+- Exercise 5 requires DOM manipulation.  The code needs to use methods like `getElementById`, `querySelector`, `setAttribute`, `appendChild`, etc., to interact with and modify the HTML elements.
+- Exercise 7 requires creating HTML elements dynamically using JavaScript. The code is missing this crucial step.
+Correctness: 20%
+-----

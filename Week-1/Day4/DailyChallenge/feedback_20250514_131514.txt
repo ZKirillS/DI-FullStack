@@ -1,0 +1,11 @@
+URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-1/Day4/DailyChallenge/dc-d4.py
+suggestions for improvement:
+- The code correctly extracts alpha characters from each column and concatenates them. However, it doesn't handle the requirement to replace groups of non-alpha characters between alpha characters with spaces.
+- The variable names could be more descriptive (e.g., `column_string` instead of `message`).
+- Add comments explaining the purpose of each section of the code, especially the loop structures.
+Brief justification:
+- correctness: The code successfully completes steps 1, 2, and 3 as described in the chapter content.  It transforms the string into a 2D list, iterates through the columns, and filters alpha characters. However, it fails to implement steps 4 and 5 completely, specifically the replacement of non-alphabetic character groups with spaces.  The output 'Tishsa' is correct only in terms of extracting alphabetic characters, it lacks the space insertion between groups of non-alphabetic characters.
+- readability: The code is relatively easy to follow, with clear indentation and straightforward variable names (although they could be more descriptive).  Comments would further enhance readability.
+- performance: The code's performance is efficient for the given task.  The nested loops have a time complexity of O(m*n), where 'm' is the number of rows and 'n' is the number of columns, which is reasonable for this problem size.
+- security: No security concerns are present in this code, as it only deals with string manipulation and doesn't involve any external data sources or user input.
+
