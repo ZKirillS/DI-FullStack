@@ -1,0 +1,19 @@
+URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day4/DailyChallenge/w2dc4.py
+suggestions for improvement:
+- The `word_frequency` method should return `None` or 0 if the word is not found, not a string.
+- The `most_common_word` method should handle empty strings or texts with no words more gracefully.
+- Class methods like `without_punctuation`, `stop_words`, and `specials` should be instance methods to work correctly with the instance's text.
+- The `specials` method in both classes modifies the text in place. It's better to create a copy and return the modified copy.
+- Error handling for file operations in `get_text_from_file` is minimal. More robust error handling is needed.
+- The `remove_stop_words` method should be implemented more efficiently by checking the stop words set directly, instead of loading Spacy.
+- Use more descriptive method names, e.g.,  `word_count` instead of `frequency`.
+- Add docstrings to methods for better understanding and maintainability.
+- Consider using a more efficient data structure for large texts in `most_common_word` (e.g., Counter).
+- The `remove_special_characters` method is missing from `TextModification` class.
+- In `specials` methods, the list `special_sign` is quite extensive.  It's preferable to use regex for more efficient handling of special characters.
+Brief justification:
+- correctness: The code implements most of the requested functionality, but some methods do not perfectly match the requirements. The `word_frequency`, `most_common_word`, and file handling parts have some issues.  The `TextModification` class doesn't implement `remove_special_characters`. The `remove_stop_words` function is not optimal.
+- readability: The code is reasonably readable.  Method names could be more descriptive. The use of more comments will enhance readability.
+- performance: The performance could be improved, especially in `remove_stop_words` (use of spacy slows down execution for large texts) and `most_common_word` which uses a list to find the most frequent word and it's not efficient for large texts. The `specials` method in both classes modifies the text in place, which might lead to unexpected behavior.
+- security: The code does not have any obvious security vulnerabilities; however, more robust error handling, particularly for file I/O, is necessary. The `get_text_from_file` method only handles `FileNotFoundError`, which isn't sufficiently robust.
+
