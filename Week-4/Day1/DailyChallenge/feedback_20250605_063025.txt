@@ -1,0 +1,13 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day1/DailyChallenge/dcw4.js
+suggestions for improvement:
+- The code could be slightly improved by using more descriptive variable names. For example, instead of `winners`, consider `highScoringPlayers`.  This enhances readability.
+- While the code functions correctly, adding comments explaining the purpose of each section would boost readability further. This is particularly beneficial for others reviewing the code.
+- Consider using `reduce` for calculating the total score instead of `forEach`.  While the performance difference is negligible here, `reduce` is more idiomatic for summing array elements.
+Correctness: 100%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day1/DailyChallenge/index.html
+suggestions for improvement:
+- The code could benefit from more descriptive variable names. For example, instead of `winners`, `highScoringPlayers` would be more clear.
+- Adding comments to explain the purpose of each section of code would enhance readability.  Specifically, adding comments to each `forEach` loop would improve understanding.
+Correctness: 100%
+-----
