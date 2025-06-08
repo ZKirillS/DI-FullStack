@@ -1,0 +1,62 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/ex1d3.js
+suggestions for improvement:
+- In Exercise 1,  add error handling for cases where elements might not be found.  For example, check if `lastP` is null before attempting to remove it.
+- In Exercise 1, the bonus exercise of fading out the second paragraph could be improved by using CSS transitions instead of JavaScript to handle the fade effect. This would generally be smoother and more performant.
+- In Exercise 2, consider using a more descriptive class name for the unordered list than `.usersAnswer`. Something like `user-list` would be clearer.
+- In Exercise 3, add a check in `highlight` and `returnItemsToDefault` to ensure `allBoldItems` is not null before iterating. This prevents errors if the querySelectorAll returns an empty NodeList.
+- Exercise 4:  Add input validation to prevent non-numeric input.  Currently, it handles non-numeric input gracefully, but adding validation before the calculation would be a good practice.  Consider using a regular expression or a more robust input type.
+- Overall, use more descriptive variable names.  For example, instead of `fname`, consider `firstNameInput`.
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/ex2d3.js
+suggestions for improvement:
+- The provided code does not address any of the exercises outlined in the Chapter Content/Questions. It implements unrelated functionalities: an alert, dynamically adding paragraphs, and animating a box.
+- The code lacks structure and organization.  Each exercise should be contained within its own function or section with clear comments.
+- For the animation, consider using CSS transitions or animations for better performance. The current JavaScript-based animation might be less efficient for complex scenarios.
+- Add error handling to check if elements exist before manipulating them.  This prevents unexpected crashes or errors.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index1.html
+suggestions for improvement:
+- The code is missing the implementation for Exercise 2 (Forms), Exercise 3 (Transform the sentence), and Exercise 4 (Volume of a sphere).
+- For Exercise 1, the bonus features (hover effects on h1 and 2nd paragraph) are not implemented.
+- The `ex1d3.js` file is not provided, making it impossible to assess the correctness of the DOM manipulation and event handling.
+- Add comments to explain the purpose of different code sections in `ex1d3.js` to improve readability.
+Correctness: 70%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index2.html
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index3.html
+suggestions for improvement:
+- The provided code only includes the HTML structure for Exercise 3.  The JavaScript file (`ex1d3.js`) is missing, which contains the core logic for  `getBoldItems()`, `highlight()`, and `returnItemsToDefault()`,  preventing a complete assessment of correctness. The exercise requires event listeners (mouseover and mouseout) to be added to the paragraph to trigger the highlighting and default color changes; these are also missing.
+- The variable `allBoldItems` is declared globally. While this works, it's generally better to keep variables scoped to their functions unless there's a compelling reason for global scope. This could improve code organization and reduce the risk of naming conflicts.
+- The code lacks error handling.  What happens if there are no bold items in the paragraph? The functions should be robust enough to handle such scenarios gracefully.
+- Add comments to the javascript code to make it easier to understand
+Correctness: 60%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index4.html
+suggestions for improvement:
+- The HTML provided only sets up the form; it lacks the JavaScript code to actually calculate and display the sphere's volume.  The `ex1d3.js` file is referenced but not provided, making it impossible to assess its correctness.
+- Add the JavaScript code within the HTML or in a separate .js file, then include that file.  The code should handle user input, calculate the volume, and update the 'volume' input field. Error handling (e.g., for non-numeric input) should be included.
+- Consider using more descriptive and semantic HTML elements, for example, wrapping the form elements in a `<fieldset>` with a `<legend>` for improved accessibility and clarity.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index5.html
+suggestions for improvement:
+- The provided HTML and the presumably accompanying JavaScript file (ex2d3.js) do not address any of the exercises outlined in the Chapter Content/Questions.  There's no evidence of DOM manipulation, event handling, form processing, or the other tasks described.
+- The HTML only includes a container div, a button, and a stylesheet that makes paragraphs yellow with red text. This is irrelevant to the exercises.
+- The `ex2d3.js` file (not provided) is crucial for evaluating the correctness of the exercises' implementation. Without it, a meaningful assessment is impossible.
+- Add the code for the Javascript file (ex2d3.js) for a proper evaluation.
+Correctness: 0%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/ExerciseXP/index6.html
+suggestions for improvement:
+- The provided code does not address any of the exercises in the Chapter Content/Questions. It implements a simple animation of a red square moving within a yellow container.  It needs to be completely rewritten to address the DOM manipulation, event handling, and form processing tasks outlined in the exercises.
+- The HTML structure is simple and understandable. The CSS is minimal and clear.
+- The JavaScript logic (though irrelevant to the exercises) is efficient for its limited purpose.
+- There are no apparent security vulnerabilities in this code snippet.
+Correctness: 0%
+-----

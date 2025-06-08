@@ -1,0 +1,18 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day1/ExerciseXP/exXPw4.js
+suggestions for improvement:
+- In Exercise 2, the ordinal array only handles up to the 3rd choice.  For choices beyond that, it defaults to 'th', which is correct grammatically, but could be improved for better readability. Consider a more robust solution for handling ordinal suffixes beyond the first three.
+- Add comments to explain the logic in each exercise, especially for more complex parts like the ordinal suffix handling in Exercise 2 and the chained filter/map in Exercise 4.
+- While the code works, consider using more descriptive variable names in exercises where possible. For example, instead of `acc` and `val` in Exercise 5, you could use `sentence` and `word`.
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day1/ExerciseXP/index.html
+suggestions for improvement:
+- Exercise 1: While functionally correct, the loop could be more concise using `forEach` for better readability.
+- Exercise 1: The solution for checking if 'Violet' exists could be simplified using `includes()`.
+- Exercise 2: The ternary operator for ordinal numbers is good, but a lookup table (object) would improve readability and efficiency for larger ordinal ranges.
+- Exercise 4: Part 1 uses a `map` effectively, but the variable name `welcomeStudents` is not descriptive of the general functionality.
+- Exercise 4:  Part 2 and 3 efficiently chain `filter` and `map` but could benefit from more descriptive variable names.
+- Exercise 6: Bonus part lacks error handling; it assumes all students who passed are in the filtered array, which might not always be true.  Add a check to ensure `student` exists before using its properties.
+- General: Add comments to explain complex logic and choices made in the code for improved readability.
+Correctness: 85%
+-----

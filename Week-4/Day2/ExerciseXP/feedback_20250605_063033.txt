@@ -1,0 +1,16 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day2/ExerciseXP/exXP.js
+suggestions for improvement:
+- In Exercise 2, adding a check for the existence of `first` and `last` properties before using them would enhance robustness.  Consider using optional chaining or a nullish coalescing operator for a more concise solution.
+- Exercise 6, part 3 and 4 could benefit from adding error handling.  For example, if the user provides invalid input types, the constructor could throw an error.
+- The comments in the code are helpful, but consider adding comments for the challenges in Exercise 6, explaining your logic and choices
+Correctness: 100%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day2/ExerciseXP/index.html
+suggestions for improvement:
+- Exercise 2: The `displayStudentInfo` function should explicitly return the string instead of implicitly relying on console logging.  Add a `return` statement.
+- Exercise 3, Part 1: While the code correctly converts the object to an array, using `Object.entries` is more concise and readable than the manual approach. Consider using a more efficient method.
+- Exercise 3, Part 2:  The code should directly modify the array created in part 1, rather than creating a new array.  This is more efficient. 
+- Exercise 5: Add a more thorough explanation of why option 2 is the only correct way to extend the Dog class; explain the significance of `super()` in inheritance.
+- Exercise 6, Part 3 & 4: The Animal and Mammal classes should have more robust error handling (e.g., for invalid input types).
+Correctness: 85%
+-----

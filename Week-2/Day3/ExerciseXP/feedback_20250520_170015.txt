@@ -1,0 +1,10 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-2/Day3/ExerciseXP/exXPd3.py
+suggestions for improvement:
+- In Exercise 1, the `__iadd__` method is missing.  The code should implement this method for in-place addition, as specified in the instructions.
+- In Exercise 1, the error handling in `__add__` could be improved by using more specific exception types (e.g., `ValueError` instead of `TypeError` for currency mismatches). This aligns better with Python's best practices and makes debugging easier.
+- In Exercise 1, the pluralization logic in `__str__` and `__repr__` could be simplified and made more robust. Consider using a more flexible approach to handle different currency names.
+- In Exercise 7, the `addding()` function should be integrated directly into the `add_new_user` function or, even better, the user creation should occur within a loop inside a single function instead of two separate functions.
+- Exercise 7 lacks error handling.  What happens if `faker` fails to generate data?  Adding `try-except` blocks would improve robustness.
+- The docstrings in functions are missing. Adding these improves readability and understandability.
+Correctness: 90%
+-----
