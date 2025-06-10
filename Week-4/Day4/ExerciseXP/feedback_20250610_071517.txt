@@ -1,0 +1,12 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day4/ExerciseXP/exd4.js
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day4/ExerciseXP/index.html
+suggestions for improvement:
+- Exercise 1: The function should explicitly return the resolved value in the `then` block, not just log it to the console.  The exercise implies a return value is expected by the `.then` handler.
+- Exercise 2: The exercise asks to create a promise that resolves in 4 seconds and returns 'success'.  The current code resolves immediately with 'success'. It should use `setTimeout` to introduce the delay.
+- Add comments to explain the purpose of each function and the logic within them. This will improve code understanding and maintainability.
+Correctness: 80%
+-----
