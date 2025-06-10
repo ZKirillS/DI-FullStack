@@ -1,0 +1,17 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day5/DailyChallenge/dcd5.js
+suggestions for improvement:
+- Add input validation to handle unexpected or malicious user input (though the `rating=g` parameter already helps mitigate some risks).
+- Improve error handling to provide more user-friendly error messages instead of just logging to the console.
+- Consider adding loading indicators to improve user experience while fetching the GIF.
+- The code could benefit from more descriptive variable names (e.g., instead of `gifWrapper`, use `gifContainerElement`).
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day5/DailyChallenge/index.html
+suggestions for improvement:
+- Add input validation to handle empty or invalid category inputs.
+- Improve error handling to provide more informative messages to the user in case of API request failures (e.g., network issues or API errors).
+- Use more descriptive variable names (e.g., instead of `data` use `giphyData`).
+- Consider adding loading indicators to improve user experience while fetching the GIF.
+- The `deleteAllBtn` could be styled better for improved UX
+Correctness: 90%
+-----
