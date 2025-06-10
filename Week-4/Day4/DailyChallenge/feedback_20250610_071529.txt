@@ -1,0 +1,26 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day4/DailyChallenge/dc1.js
+suggestions for improvement:
+- The error messages could be more descriptive. For example, instead of 'Not all elements are strings.', you could say 'The array must contain only strings.  The provided array contains a non-string element at index [index of non-string element].' Similarly, for 'Array length is not greater than 4.',  you could provide the actual length for context.
+- Consider adding input validation to handle null or undefined inputs to `makeAllCaps` and `sortWords` for robustness.
+- For better readability, you might consider using template literals for error messages to easily embed variable values (like the index of a non-string element).
+Correctness: 100%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day4/DailyChallenge/dc2.js
+suggestions for improvement:
+- The `toMorse` function uses `prompt` which is generally avoided in production for security reasons. Consider using an input field instead.
+- Add input validation to `toMorse` to handle edge cases like empty input more gracefully.  Reject the promise with a descriptive error message if the input is empty or contains only whitespace.
+- Improve error handling in `toMorse` to provide more context in the rejected promise (e.g., specify which character caused the rejection).
+- The code lacks comments explaining the purpose of each function and its parameters.  Adding comments would significantly improve readability.
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day4/DailyChallenge/index.html
+suggestions for improvement:
+- In `makeAllCaps`, add more descriptive error messages when rejecting the promise (e.g., 'Array must contain only strings').
+- In `sortWords`,  similarly improve the rejection message (e.g., 'Array length must be greater than 4').
+- The `toJs` function should handle potential JSON parsing errors.  Use a `try...catch` block to gracefully handle invalid JSON strings.
+- In `toMorse`, instead of throwing an error if a character is not found, consider returning a partial translation or indicating which characters could not be translated.
+- Improve the user interface of `joinWords`. Instead of just using `console.log`, update the DOM with the morse code, perhaps using a `<pre>` tag for better formatting.
+- Add input validation to `toMorse` to handle unexpected input (e.g., numbers or special characters beyond those in morse).
+- Add comments to explain the purpose of each function and important code sections in both `dc1.js` and `dc2.js`.
+Correctness: 85%
+-----
