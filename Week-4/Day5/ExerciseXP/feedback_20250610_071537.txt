@@ -1,0 +1,17 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day5/ExerciseXP/d5ex.js
+suggestions for improvement:
+- In Exercise 1 and 2, consider adding more descriptive variable names instead of `url` and `sunUrl`  to enhance readability. For example, `hilariousGifUrl` and `sunGifUrl`. 
+- In Exercise 3, you could improve readability by adding a more descriptive name to the async function than `getStarship()`.  Something like `fetchAndLogStarshipData()` would be clearer. 
+- While the error handling is good, you could enhance it by providing more specific error messages. For example, instead of simply 'Error fetching Giphy API', consider including the query or URL that caused the error. 
+Correctness: 100%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day5/ExerciseXP/index.html
+suggestions for improvement:
+- Exercise 1 and 2:  The code is missing.  The JSON response needs to be handled to extract the GIF URLs.  The provided HTML file only includes a script tag, so it's impossible to assess the correctness without the `dc2.js` file's content.
+- Exercise 1 and 2: Add error handling for network issues (e.g., the API being unavailable).  Check `response.ok` before accessing `response.json()`.
+- Exercise 2: The code needs to specify `limit=10` and `offset=2` as query parameters in the API URL to retrieve 10 GIFs starting from the second position.
+- Exercise 3: The provided code snippet is incomplete. The `async` function and error handling are missing in this example.  The solution needs to be implemented.
+- Exercise 4:  The exercise only requires analysis, not code. The analysis of the given code should be provided in the `justification` section for Exercise 4.
+- General: The provided code lacks comments explaining the purpose of different sections, reducing readability.
+Correctness: 80%
+-----
