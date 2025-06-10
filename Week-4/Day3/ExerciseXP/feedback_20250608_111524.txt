@@ -1,0 +1,26 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day3/ExerciseXP/ex1.html
+suggestions for improvement:
+- Exercise 1 and 2 should be separate HTML files to clearly demonstrate the difference between GET and POST requests.  The current implementation combines both into one, making it harder to observe the distinct behaviors.
+- Add input validation to prevent potential issues such as script injection (though not explicitly required, it's a good practice).
+- Exercise 3 (JSON Mario) is missing. The JSON transformation and breakpoint debugging aspects are not addressed in the provided code.
+- Include error handling for the form submission, in case the server doesn't respond or the submission fails. A simple alert indicating success or failure would be sufficient.
+Correctness: 80%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day3/ExerciseXP/ex2.html
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day3/ExerciseXP/exs3.js
+suggestions for improvement:
+- The code is very concise and effective, but adding comments explaining the purpose of each step would enhance readability.  For example, a comment above `JSON.stringify` explaining its function and parameters would be helpful for those less familiar with the method.
+- Consider using a more descriptive variable name than `jsonMario` and `prettyJsonMario`. Names like `marioGameJson` and `formattedMarioGameJson` would improve understanding.
+Correctness: 100%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day3/ExerciseXP/index.html
+suggestions for improvement:
+- Add HTML forms for Exercises 1 and 2 as instructed.  The provided code only addresses Exercise 3.
+- For Exercise 1 and 2, clearly indicate the GET and POST method in the form tags.  Explain where the data appears (URL for GET, Network tab for POST).
+- In Exercise 3, while the JSON.stringify with null, 2 is correct for pretty printing, explicitly mention that this is done for readability in a comment.
+Correctness: 80%
+-----

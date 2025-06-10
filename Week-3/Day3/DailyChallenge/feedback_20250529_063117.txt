@@ -1,0 +1,17 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/DailyChallenge/DCd3.js
+suggestions for improvement:
+- Improve error handling: Instead of a simple alert, provide more user-friendly feedback indicating which fields are missing.
+- Enhance Story Templates:  Add more story templates for greater variety. Consider allowing users to select a story type or using a larger, randomly selected pool.
+- Input Validation: Add input validation to prevent users from entering inappropriate data (e.g., script injection).  Sanitize user inputs before displaying them in the story.
+- Styling: Add some basic CSS to improve the visual presentation of the Mad Libs game.
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day3/DailyChallenge/index.html
+suggestions for improvement:
+- The code is missing the implementation of the story generation and input validation.  It only sets up the basic HTML structure.
+- Error handling is missing. The code should gracefully handle cases where the user doesn't input all the fields.
+- The bonus feature (shuffling the stories) is not implemented.
+- The code lacks comments explaining the logic and the purpose of different parts.
+- Use more descriptive variable names (e.g., instead of just `noun`, use `userNoun`).
+Correctness: 80%
+-----

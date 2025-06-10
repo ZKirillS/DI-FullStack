@@ -1,0 +1,13 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day4/DailyChallenge/dcd4.js
+suggestions for improvement:
+- The code is well-structured and easy to follow.  Consider adding comments to explain the purpose of each function and variable for enhanced readability.
+- While functionally correct, using more descriptive variable names (e.g., instead of `user` perhaps `clonedClient` ) would improve readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-3/Day4/DailyChallenge/index.html
+suggestions for improvement:
+- The `displayGroceries` function should be improved to directly access the `fruits` array instead of iterating using `forEach` given the small, fixed size of the array.  Direct access would be more efficient and concise for this specific case.
+- The instructions mention creating a *copy* of the `groceries` object, but the code uses direct assignment (`shopping = groceries;`). This leads to the observed behavior of modifications affecting both variables, contradicting the implied expectation of creating a deep copy.  The solution should use the spread operator (`...`) or other deep copy methods to achieve a true copy to fulfill the learning objective of Pass By Value & Pass By Reference.
+- Add comments explaining the reasons for the observed behavior (pass-by-reference for objects, pass-by-value for strings) to enhance understanding.
+Correctness: 80%
+-----

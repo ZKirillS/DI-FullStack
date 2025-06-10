@@ -1,0 +1,15 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day2/DailyChallenge/dcd2.js
+suggestions for improvement:
+- The `watch()` method could be improved by returning the watch string instead of directly printing it to the console. This allows for more flexibility in how the output is handled.
+- Consider adding input validation to the `Video` constructor to handle cases where the input parameters are not of the expected types. For example, check if `title` and `uploader` are strings, and `time` is a number.
+- The bonus section's implementation is excellent.  The use of an array of objects to store video data and then iterating to create instances is efficient and well-structured.
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day2/DailyChallenge/index.html
+suggestions for improvement:
+- The code is missing the crucial `dcd2.js` file which contains the actual JavaScript implementation.  Without this file, it's impossible to assess the correctness of the object creation and methods.
+- The HTML file is very basic.  Adding comments to explain the purpose of the script inclusion would improve readability.
+- The bonus parts (array of videos and looping through them to create instances) are not implemented in the provided HTML, only mentioned in the instructions.  The solution should demonstrate them.
+- The instructions mention using a suitable data structure for the array. Consider using an array of objects, where each object represents a video's data, to improve data organization.
+Correctness: 80%
+-----

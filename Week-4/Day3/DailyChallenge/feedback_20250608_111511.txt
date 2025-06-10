@@ -1,0 +1,17 @@
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day3/DailyChallenge/dcd3.js
+suggestions for improvement:
+- Add input fields with IDs 'firstName' and 'lastName' to the form element in the HTML.  The JavaScript code assumes these IDs exist.
+- Consider using more descriptive variable names (e.g., `firstNameInput`, `lastNameInput`).
+- Add basic input validation to prevent empty submissions or submissions with non-alphanumeric characters.  This enhances user experience and data quality.
+- Improve styling of the output JSON (e.g., using a `<pre>` tag for better formatting).
+Correctness: 95%
+-----
+URL: URL: https://github.com/ZKirillS/DI-FullStack/blob/main/Week-4/Day3/DailyChallenge/index.html
+suggestions for improvement:
+- The code uses inline styling in the `details` element, which is generally not recommended.  Use external CSS for better maintainability and separation of concerns.
+- The solution could be improved by adding input validation (e.g., checking for empty fields before creating the JSON object).
+- Error handling could be implemented to gracefully manage situations where the form submission fails or the `output` div is not found.
+- Consider using more descriptive variable names (e.g., `firstNameInput` instead of `firstName`).
+- The `dcd3.js` file is not included, therefore it cannot be fully assessed but the provided HTML is well-structured and uses appropriate semantic elements.
+Correctness: 95%
+-----
